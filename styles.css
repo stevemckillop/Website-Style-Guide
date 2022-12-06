@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    padding: 20px;
+}
+header{
+    display: inline;
+}
+a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+p{
+    padding: 0.5em;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+}
+h2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    padding-left: 20px;
+}
+section {
+    width: 80%;
+    height: 500px;
+    border: 1px solid #171717;
+
+}
+.navbar{
+    width: 80%;
+    height: 20%;
+    border: 1px solid #171717;
+    background-color:  #2b3b4e;
+}
+.nav-list {
+    align-items: stretch;
+    border: 1px solid #171717;
+    padding: 10px;
+    background-color:  #4099ff;
+}
+.nav-list li {
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: space-between;
+    margin: 50px;
+    font-size: 36px;
+    text-align:center;
+    color: black;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#colors{
+    height: auto;
+}
+.color-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.color-container div{
+    width: 150px;
+    min-height: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #171717;
+    text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.color-panel1{
+    background-color: #2b3b4e;
+    color: rgb(206, 206, 223);
+}
+.color-panel2{
+    background-color: #272d70;
+    color: rgb(206, 206, 223);
+
+}
+.color-panel3{
+    background-color: #3a5976;
+    color: rgb(206, 206, 223);
+
+}
+.color-panel4{
+    background-color: #3b5998;
+    color: rgb(206, 206, 223);
+
+}
+.color-panel5{
+    background-color: #4099ff;
+    color: rgb(15, 15, 63);
+}
+.font-container{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.font-container div{
+    width: 250px;
+    min-height: 200px;
+    margin: 20px;
+    padding: 10px;
+}
+.font1-title{
+    text-decoration: underline;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+.font1-regular{
+    font-weight: normal;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+.font1-bold{
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+.font1-italic{
+    font-style: italic;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+.font2-title{
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+
+}
+.font2-regular{
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+}
+.font2-bold{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+.font2-italic{
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.font3-title{
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+
+}
+.font3-regular{
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+
+}
+.font3-bold{
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+
+}
+.font3-italic{
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+}
+#fonts{
+    height: auto;
+}
+.text-container li {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 300;
+}
+#text-styles{
+    height: auto;
+}
+#buttons{
+    height: auto;
+}
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button-panel{
+        box-sizing: border-box;
+        width: auto;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 30px;
+}
+.button1{
+    background-color:  #4099ff;;
+    box-sizing: border-box;
+    width: 240px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 1px dotted #ccc;
+}
+.button1:hover{
+    background-color: black;
+    color: #4099ff;
+}
+.button2{
+    background-color:  #3b5998;
+    box-sizing: border-box;
+    width: 240px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 5px solid #272d70;
+}
+.button2:hover{
+    background-color:  #272d70;
+    color: #4099ff;
+}
+.button3{
+    background-color: #3a5976;;
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 5px solid #2b3b4e;
+    border-radius: 100px;
+}
+.button3:hover{
+    background-color:  #2b3b4e;
+    border: 5px solid #3a5976;
+    color: #4099ff;
+}
